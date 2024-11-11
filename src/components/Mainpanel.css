@@ -1,0 +1,70 @@
+.dashboard {
+  margin: 20px;
+}
+.fans {
+  grid-area: fans;
+}
+.light {
+  grid-area: light;
+}
+.apc {
+  grid-area: apc;
+}
+.ref {
+  grid-area: ref;
+}
+.air {
+  grid-area: air;
+}
+.pc {
+  grid-area: pc;
+}
+.cpc {
+  grid-area: cpc;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "fans fans light light apc apc apc apc"
+    "ref ref air air apc apc apc apc"
+    "pc pc pc cpc cpc cpc cpc cpc"
+    "pc pc pc cpc cpc cpc cpc cpc";
+  gap: 20px;
+  /* background-color: #2196f3; */
+  /* padding: 10px; */
+}
+.grid-container div {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.boxlayout{
+    margin: 0;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.boxlayout2{
+    margin: 0;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info p{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: rgb(97, 97, 97);
+    margin-top: 8px;
+}
+.info h3{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    margin-top: 2px;
+}
+.boxlayout2 img{
+  width: 100%;
+}

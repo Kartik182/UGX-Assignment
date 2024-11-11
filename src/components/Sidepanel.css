@@ -1,0 +1,22 @@
+.sidepanel {
+  background-color:white;
+  box-shadow: 0px 0px 5px 1px rgb(203, 203, 203);
+}
+.main-heading {
+  text-align: center;
+  font-size: 20px;
+}
+.sidepanel-links p {
+    margin: 0;
+    padding: 7px 0 7px 25px;
+  padding-left: 25px;
+  font-weight: 500px;
+  color: rgb(97, 97, 97);
+}
+.sidepanel-links p:hover {
+  background-color: rgba(21, 0, 255, 0.05);
+  color: rgb(21, 0, 255);
+  border-right: 3px solid rgb(21, 0, 255);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

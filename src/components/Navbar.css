@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 5px 1px rgb(203, 203, 203);
+}
+.search-bar {
+  margin-left: 25px;
+  width: 250px;
+  padding: 5px 15px;
+  border-radius: 25px;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(152, 152, 152);
+  outline: none;
+}
+.right-side-nav {
+  display: flex;
+  align-items: center;
+}
+.in-right-side-nav {
+  display: flex;
+  align-items: center;
+}
+.status {
+  color: rgb(0, 78, 53);
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  margin-right: 5px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+.icons p {
+  margin: 0;
+  padding: 0 10px;
+}
