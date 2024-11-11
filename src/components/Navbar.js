@@ -1,5 +1,11 @@
 import React from "react";
 import "./Navbar.css";
+import {FaRegMoon} from "react-icons/fa";
+import {FaRegBell} from "react-icons/fa6";
+import {IoSettingsOutline} from "react-icons/io5";
+import {FaList} from "react-icons/fa6";
+
+
 
 function Navbar() {
   return (
@@ -11,16 +17,16 @@ function Navbar() {
           className="search-bar"
         />
       </div>
-      <div>Icon</div>
+      <div><FaList/></div>
       <div className="right-side-nav">
         <div className="in-right-side-nav">
           <p className="status">•</p>
           <p>Johnathan doe▾</p>
         </div>
         <div className="icons">
-          <p>🌙</p>
-          <p>bell</p>
-          <p>setting</p>
+          <p><FaRegMoon /></p>
+          <p><FaRegBell /></p>
+          <p><IoSettingsOutline /></p>
         </div>
       </div>
     </div>
